@@ -1,1 +1,31 @@
-
+{
+  "name": "backend-auth-supabase",
+  "version": "1.0.0",
+  "description": "Backend authentication using Node.js, Express, Supabase, and JWT",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "express",
+    "supabase",
+    "auth",
+    "jwt",
+    "backend"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5",
+    "@supabase/supabase-js": "^2.46.0",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
